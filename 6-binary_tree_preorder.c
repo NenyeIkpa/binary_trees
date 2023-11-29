@@ -22,5 +22,5 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 
 void print_node_value(int value)
 {
-	print_node_value("%d\n", value);
+	printf("%d ", value);
 }
